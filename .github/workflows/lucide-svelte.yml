@@ -1,6 +1,7 @@
 name: Lucide Svelte checks
 
 on:
+  workflow_dispatch:
   pull_request:
     paths:
       - packages/lucide-svelte/**
